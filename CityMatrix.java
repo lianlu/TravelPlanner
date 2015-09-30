@@ -10,10 +10,10 @@ public class CityMatrix {
 	public CityMatrix(String coast) {
 		if(coast.equals("east")) {
 			numberOfCities = 5;
-			priceReader = new ReadPrice("/Users/Jason/Documents/workspace/TravelingBudgetCalculation/src/Calculation/SWSpider/prices/east_prices");
+			priceReader = new ReadPrice("/Users/Bill/Documents/workspace/Calculation/src/Calculation/SWSpider/prices/east_prices");
 		} else {
 			numberOfCities = 6;
-			priceReader = new ReadPrice("/Users/Jason/Documents/workspace/TravelingBudgetCalculation/src/Calculation/SWSpider/prices/west_prices");
+			priceReader = new ReadPrice("/Users/Bill/Documents/workspace/Calculation/src/Calculation/SWSpider/prices/west_prices");
 		}
 	}
 	public static void main(String[] args) throws IOException {
