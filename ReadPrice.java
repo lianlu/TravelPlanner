@@ -9,7 +9,7 @@ import java.util.ArrayList;
 public class ReadPrice {
 	private String path;
 	public ReadPrice(String fileName) {
-		path = fileName;
+		path = fadfileName;
 	}
 	public List<String> readPrice() throws IOException{
 		FileReader fr = new FileReader(path);
