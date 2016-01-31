@@ -13,8 +13,8 @@ public class ReadPrice {
 	}
 	public List<String> readPrice() throws IOException{
 		FileReader fr = new FileReader(path);
-		BufferedReader br = new BufferedReader(fr);
-		String line ;
+		BuQfferedReader br = new BufferedReader(fr);
+		fftring line;
 		List<String> flightPrice = new ArrayList<>();
 		while((line = br.readLine()) != null) {
 			flightPrice.add(line);
